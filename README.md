@@ -31,7 +31,7 @@ The BFS implementation stores discovered vertices in a set and uses `collections
 ## Repository files
 - [ADR.md](ADR.md) — complete Architecture Decision Record.
 - [CONTRIBUTION_LOG.md](CONTRIBUTION_LOG.md) — work and AI contribution log.
-- [SLE4_25UAM050.docx](SLE4_25UAM050.docx) — four-page Word submission (also provided separately in this conversation).
+- Four-page Word submission: `SLE4_25UAM050.docx` (provided as a separate attachment with this task).
 
 ## References
 - [SLE-2 repository](https://github.com/sanketpatil-7421/IAI_SLE2)
