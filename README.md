@@ -2,9 +2,11 @@
 
 **Course:** 02AML204 – Introduction to Artificial Intelligence  
 **Student:** Sanket Patil  
-**PRN:** 25UAM050  
+**PRN:** 25UAM069  
 **Division:** A  
 **System:** Python BFS and DFS Graph Search System
+
+**SLE-4 Repository:** https://github.com/sanketpatil-7421/IAI_SLE4
 
 ## Aim
 Record and justify one important design decision from the earlier SLE work, connect it to the SLE-2 complexity/profiling work and SLE-3 C4 architecture, and prepare to defend it during the viva.
@@ -20,7 +22,7 @@ The BFS implementation stores discovered vertices in a set and uses `collections
 - Keeps traversal state distinct from graph storage, consistent with the SLE-3 C4 containers.
 - Makes the queue and visited-state responsibilities straightforward to test and explain.
 
-**Evidence note:** The accessible SLE-2 README records asymptotic complexity but the numeric profiling report was not present among the accessible files. No timing or memory measurements are invented in this ADR. Add the actual SLE-2 profiler measurements if they are available in your original report.
+**Evidence note:** The accessible SLE-2 README records asymptotic complexity, but the numeric profiling report was not present among the accessible files. No timing or memory measurements are invented in this ADR.
 
 ## Earlier SLE journey
 - **SLE-1:** Agent/search problem and implementation work.
@@ -31,8 +33,9 @@ The BFS implementation stores discovered vertices in a set and uses `collections
 ## Repository files
 - [ADR.md](ADR.md) — complete Architecture Decision Record.
 - [CONTRIBUTION_LOG.md](CONTRIBUTION_LOG.md) — work and AI contribution log.
-- Four-page Word submission: `SLE4_25UAM050.docx` (provided as a separate attachment with this task).
+- [Four-page Word report](SLE4_25UAM069.docx) — report with the student's updated PRN and repository link.
 
 ## References
 - [SLE-2 repository](https://github.com/sanketpatil-7421/IAI_SLE2)
 - [SLE-3 repository](https://github.com/sanketpatil-7421/IAI_SLE3)
+- [SLE-4 repository](https://github.com/sanketpatil-7421/IAI_SLE4)
