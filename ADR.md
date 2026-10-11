@@ -3,9 +3,10 @@
 - **Status:** Accepted
 - **Date:** 11 October 2026
 - **Student:** Sanket Patil
-- **PRN:** 25UAM050
+- **PRN:** 25UAM069
 - **Division:** A
 - **System:** Python BFS/DFS graph-search system
+- **Repository:** https://github.com/sanketpatil-7421/IAI_SLE4
 
 ## 1. Context
 The SLE project implements Breadth First Search (BFS) and Depth First Search (DFS) on a graph with vertices A–G. Graphs may contain cycles or multiple paths to the same vertex, so traversal needs a reliable way to avoid processing vertices repeatedly. In BFS, a vertex can be discovered from more than one neighbour before it is removed from the queue. The SLE-3 C4 architecture separates graph management, the search engine, traversal-state management, and output.
@@ -26,7 +27,7 @@ Use a set named `visited` to record discovered vertices in BFS and DFS. In BFS, 
 - Both algorithms can share the visited-state idea while retaining distinct traversal strategies.
 - This decision matches the SLE-3 C4 design, where graph storage, search, traversal state, and output have separate responsibilities.
 - For the seven-vertex sample graph, the expected traversal from A is BFS: A, B, C, D, E, F, G; DFS with the current neighbour order: A, B, D, E, C, F, G.
-- **Profiling evidence limitation:** the accessible SLE-2 README documents asymptotic complexity, but a numeric profiling report/table was not available in the accessible files. Therefore, this ADR does not claim made-up runtime or memory numbers. Insert the actual measurements from the original SLE-2 report if available.
+- **Profiling evidence limitation:** the accessible SLE-2 README documents asymptotic complexity, but a numeric profiling report/table was not available in the accessible files. Therefore, this ADR does not claim runtime or memory numbers that were not measured.
 
 ## 5. Consequences
 
